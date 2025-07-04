@@ -1,0 +1,28 @@
+
+.main-header {
+    display: flex
+;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.main-logo {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://image.idntimes.com/post/20240909/alexandra-tran-yxeuck-bevy-unsplash-2-1c66767e1c62357e7ee5fec0f44503ff.jpg?tr=w-1080,f-webp,q-75&width=1080&format=webp&quality=75);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex
+;
+}
+
+nav > a{
+    border: 1px solid;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
