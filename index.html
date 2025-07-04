@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        html {
+            width: 100%;
+            height: 100%;
+        }
+        body {
+            background: linear-gradient( rgb(79, 199, 199));
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Fadli</title>
+
+    <!-- Css Eksternal -->
+    <link rel="stylesheet" href="css\style.css">
+
+    <!-- tailwind CSS -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="font-bold">
+    <!-- Header -->
+    <header class="main-header p-[12px]">
+        <!-- Logo -->
+        <div class="main-logo">
+            
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="#our profile">Profil Kami</a>
+            <a href="#produk">Produk Kami</a>
+            <a href="#portoflio">Portofolio</a>
+            <a href="#message us">Pesan untuk Kami</a>
+        </nav>
+      
+    </header>
+    <hr />
+
+    <!-- main content -->
+    <main>
+        <!-- home section  -->
+        <section id="Home" class="min-h-[300px]">
+            <header class="py-[32px] text-center">
+                <h2>Selamat Datang di Website Kami</h2>
+            </header>
+
+            <div class="mx-[12px]"> 
+            <p class="text-center">
+                Selamat datang di era kebersihan yang sejati bersama Lerak Pure. Di tengah hiruk pikuk modernitas, kami mengajak Anda kembali ke kearifan alam dengan sabun lerak kami yang 100% alami. Dibuat dari buah lerak pilihan yang kaya saponin, Lerak Pure bukan hanya membersihkan, tetapi juga merawat tanpa meninggalkan jejak bahan kimia berbahaya. Rasakan sentuhan lembut tradisi untuk kebersihan menyeluruh yang ramah bagi kulit, pakaian, dan tentu saja, bumi kita.
+            </p>
+            </div>
+            
+        </section>
+        
+    <hr />
+
+        <!-- profile section  -->
+        <section id="our profile" class="min-h-[250px]">
+            <header class="text-center">
+                <h1>Profile Kami</h1>
+            </header>
+
+            <article class="mx-[12px]">
+                <p>
+                <li> Nama Perusahaan : PT Lerak SejahTera Abadi</li>
+                <li> Slogan : Sentuhan Alam untuk Kebersihan Sejati </li>
+                <li> Tahun Pendirian : 2025</li>
+                <li> Visi : Menjadi pemimpin pasar dalam produk kebersihan alami dan berkelanjutan yang memberdayakan masyarakat lokal dan menjaga kelestarian lingkungan. </li>
+                <li> Misi : Memproduksi sabun lerak berkualitas tinggi yang efektif, aman, dan ramah lingkungan, Mengedukasi masyarakat tentang manfaat lerak sebagai alternatif pembersih alami, dan Mendukung petani lerak lokal serta praktik pertanian berkelanjutan.</li>
+                </p>
+            </article>
+            
+        </section> 
+
+    <hr />
+        <!-- Produk section -->
+        <section id="produk" class="min-h-[100px]">
+            <header class="text-center">
+                <h1>Produk Kami</h1>
+            </header>
+
+            <div 
+             class="h-[700px] bg-[url(https://assets.kompasiana.com/items/album/2024/01/02/lerak-6593da0b12d50f3b6d68e6a7.png?t=o&v=770)] bg-cover bg-center ">
+            </div>
+        </section>
+
+    <hr />
+        <br>
+        <br>
+        <!-- porto section  -->
+        <section id="portoflio" class="min-h-[200px]">
+            <header class="text-center">
+                <h1>Portofolio</h1>
+            </header>
+            
+            <article class="mx-[12px]">
+                <p>
+                <li>Daftar Klien : Toko Hijau Indonesia, Toko Sabun Serbaguna</li>
+                <li>Cakupan Pasar : Tersedia di toko online, Supermarket, dan juga Pasar Traditional.</li>
+                <li>Liputan Media : TransTv, Sctv, Net Tv</li>
+                <li>Penghargaan : Michelin best Soap of The Year 2025 </li>
+                </p>
+            </article>
+        </section>
+
+
+        <hr />
+        <!-- message section  -->
+        <section id="message us" class="min-h-[500px]">
+            <header class="text-center">
+                <h1>Pesan Untuk Kami</h1>
+            </header>
+
+            <form>
+                <br/>
+            <div>
+                        <label for="name-input" class="mx-[12px]">Nama :</label>
+                        <input type="text" id="name-input" name="name" class="border border-black-500 rounded p-[8px] w-[400px]">
+                <br/>
+                <br/>
+                        <label for="comment-input" class="mx-[12px]">Komentar:</label>
+                        <input type="text" id="cooment-input" comment="comment" placeholder="Masukkan Komentar Anda" class="border border-black-500 rounded p-[8px] w-full">
+                <br/>
+                <br/> 
+                        <label for="jk-input" class="mx-[12px]">jenis Kelamin :</label>
+                        <input type="radio" id="jk-input" value="male" name="jeis kelamin"> laki-laki
+                        <input type="radio" id="jk-input" value="female"> perempuan
+                <br/>
+            </div>
+
+
+            <div class="py-[15px]">
+                <button type="button" class="border rounded p-[10px] bg-blue-500 text-white" onclick="validateForm();">
+                    Send Message
+                </button>
+            </div>
+    </form>
+        <br/>
+        <br/>
+
+        <!-- Result form  -->
+         <aside class="text-center">
+            <p id="result-form"> 
+                Terima Kasih Atas Pesan Anda
+            </p>
+         </aside>
+        </section>
+        
+    </main>
+
+    <!-- <footer> -->
+    <footer class="text-center">
+        <p>
+            &copy; 2025 My Website
+        </p>
+    </footer>
+
+    <!-- js External -->
+     <script src="js\script.js"></script>
+</body>
+</html>
